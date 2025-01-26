@@ -33,7 +33,7 @@ Dataset was split into 70% training, 20% validation and 10% Test sets and was th
   Streamlit was used to deploy the model with three modes of input (Webcam, DroidCam and Video Uploads) to allow real time feedback 
 
 #### 5. Demo
-  ![Video](https://github.com/user-attachments/assets/218dc73f-865e-4dac-883b-cd2df4495f5e)
+  ![Video](https://github.com/user-attachments/assets/218dc73f-865e-4dac-883b-cd2df4495f5e.gif)
 
 🖥️ Installation and Usage
 Prerequisites
