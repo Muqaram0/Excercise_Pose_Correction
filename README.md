@@ -9,51 +9,29 @@ This project implements a real-time fitness tracking and posture correction syst
  
 
 # 🛠️ Methodology
-1. Data Collection
+## 1. Data Collection & Model Training
    Videos of excercises were recorded at 60fps, the frames were then extracted using a simple python script, finally annotation and data augmentation was done with the help of roboflow
     
-<div align="center">
-<imgsrc="https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7 alt="image"">
-</div>
+![image](https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7)
 
-   •Dataset split into:
-        •Training Set (70%)
-        •Validation Set (20%)
-        •Test Set (10%)
-
+Dataset was split into 70% training, 20% validation and 10% Test sets and was then trained using YOLOv8 for robust and fast excercise detection 
 
 ![image](https://github.com/user-attachments/assets/24efeb91-c1c0-4350-84ea-dc2c6da11886)
 
 
-2. Model Training
-    •Trained using YOLOv8 architecture for robust and fast exercise detection.
-    •Optimized on GPU for efficiency.
-    •Metrics:
-        •Precision: 99%
-        •Recall: 89%
-        •mAP50-95: 92.7%
+## 2. Model Training Results
+  We were able to achieve a Precision of 99%, Recall 89% and mAP50-95 score of 92.7%
+       
 
-3. Pose Estimation & Form Analysis
-    •MediaPipe Pose identifies body landmarks.
-    •Specific posture criteria ensure correct exercise execution:
+## 3. Pose Estimation & Form Analysis
+  MediaPipe Pose was used to identify the body landmarks, upoun which depending on the type of excercise classified a logic was using to determine if the posture is correct or not
         •Push-Ups: Detect up/down phases and evaluate back alignment.
         •Squats: Analyze knee alignment, shoulder-to-knee posture, and back angle.
         •Bicep Curls: Assess elbow movement and shoulder stability.
 
-4. Deployment
-    •Streamlit app allows real-time feedback and video analysis.
-    •Three modes of input:
-        •Webcam for live feedback.
-        •DroidCam USB to use a smartphone as a webcam.
-        •Video Uploads for offline analysis.
-
-📊 Results
-
-   •High accuracy in detecting and classifying exercises.
-   •Comprehensive feedback on form:
-        •Real-time corrections using skeletal landmarks.
-        •Detailed metrics like joint angles and motion tracking.
-   •Loss curves and precision-recall graphs demonstrate strong model performance.
+## 4. Deployment
+  Streamlit was used to deploy the model with three modes of input (Webcam, DroidCam and Video Uploads) to allow real time feedback 
+    
 
 🖥️ Installation and Usage
 Prerequisites
@@ -72,7 +50,7 @@ Install dependencies:
 
 Run the Streamlit app:
 
-    streamlit run app.py
+    streamlit run excercise_pose_correction.py
 
 Input Options
 
