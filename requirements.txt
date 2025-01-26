@@ -1,0 +1,15 @@
+streamlit
+opencv-python
+mediapipe
+torch
+torchvision
+numpy
+pandas
+matplotlib
+Pillow
+yolov8
+scikit-learn
+tensorflow
+pyyaml
+roboflow
+protobuf
