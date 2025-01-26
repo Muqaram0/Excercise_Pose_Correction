@@ -13,7 +13,7 @@ This project implements a real-time fitness tracking and posture correction syst
    Videos of excercises were recorded at 60fps, the frames were then extracted using a simple python script, finally annotation and data augmentation was done with the help of roboflow
     
 <div align="center">
-![image](https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7)
+<imgsrc="https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7 alt="image"">
 </div>
 
    •Dataset split into:
