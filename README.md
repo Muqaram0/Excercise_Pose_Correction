@@ -8,8 +8,9 @@ This project implements a real-time fitness tracking and posture correction syst
 
  
 
-# 🛠️ Methodology
-## 1. Data Collection & Model Training
+## 🛠️ Methodology
+#### 1. Data Collection & Model Training
+
    Videos of excercises were recorded at 60fps, the frames were then extracted using a simple python script, finally annotation and data augmentation was done with the help of roboflow
     
 ![image](https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7)
@@ -19,17 +20,19 @@ Dataset was split into 70% training, 20% validation and 10% Test sets and was th
 ![image](https://github.com/user-attachments/assets/24efeb91-c1c0-4350-84ea-dc2c6da11886)
 
 
-## 2. Model Training Results
+#### 2. Model Training Results
+
   We were able to achieve a Precision of 99%, Recall 89% and mAP50-95 score of 92.7%
        
 
-## 3. Pose Estimation & Form Analysis
+#### 3. Pose Estimation & Form Analysis
+
   MediaPipe Pose was used to identify the body landmarks, upoun which depending on the type of excercise classified a logic was using to determine if the posture is correct or not
         •Push-Ups: Detect up/down phases and evaluate back alignment.
         •Squats: Analyze knee alignment, shoulder-to-knee posture, and back angle.
         •Bicep Curls: Assess elbow movement and shoulder stability.
 
-## 4. Deployment
+#### 4. Deployment
   Streamlit was used to deploy the model with three modes of input (Webcam, DroidCam and Video Uploads) to allow real time feedback 
     
 
