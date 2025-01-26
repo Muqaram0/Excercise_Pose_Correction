@@ -17,9 +17,6 @@ This project implements a real-time fitness tracking and posture correction syst
 
 Dataset was split into 70% training, 20% validation and 10% Test sets and was then trained using YOLOv8 for robust and fast excercise detection 
 
-![image](https://github.com/user-attachments/assets/24efeb91-c1c0-4350-84ea-dc2c6da11886)
-
-
 #### 2. Model Training Results
 
   We were able to achieve a Precision of 99%, Recall 89% and mAP50-95 score of 92.7%
@@ -34,7 +31,9 @@ Dataset was split into 70% training, 20% validation and 10% Test sets and was th
 
 #### 4. Deployment
   Streamlit was used to deploy the model with three modes of input (Webcam, DroidCam and Video Uploads) to allow real time feedback 
-    
+
+#### 5. Demo
+  ![Video](https://github.com/user-attachments/assets/218dc73f-865e-4dac-883b-cd2df4495f5e)
 
 🖥️ Installation and Usage
 Prerequisites
