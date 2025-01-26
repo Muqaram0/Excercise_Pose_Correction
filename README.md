@@ -5,19 +5,13 @@ This project implements a real-time fitness tracking and posture correction syst
 ![Image](https://github.com/user-attachments/assets/e62fb81f-44cf-483b-812c-6f014d3dce2a)
 
 
-![image](https://github.com/user-attachments/assets/f5409f5d-e545-46f6-87c4-c31eb4b002c5)
 
-  •Multi-Input Support:
-        •Webcam Integration
-        •DroidCam USB for smartphone usage
-        •Pre-recorded video uploads
-  •User-Friendly Deployment: Built using Streamlit for an interactive and intuitive interface.
+ 
 
-🛠️ Methodology
+#🛠️ Methodology
 1. Data Collection
-    •Videos of exercises recorded at 60 FPS.
-    •Frames extracted and annotated using Roboflow.
-    •Data augmentation for diversity (brightness, rotation, flipping).
+   Videos of excercises were recorded at 60fps, the frames were then extracted using a simple python script, finally annotation and data augmentation was done with the help of roboflow
+    
 
 ![image](https://github.com/user-attachments/assets/d0c44cb2-5ad9-462f-9224-b89a302045c7)
 
