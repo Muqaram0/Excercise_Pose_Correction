@@ -64,7 +64,8 @@ Input Options
     Video Uploads: Upload recorded exercise videos for analysis.
 
 
-🧑‍💻 Contributors
-  Mohammad Ali Haider 
-  Syed Afraz 
-  Mufti Muqaram Majid Farooqi 
+#### Contributors
+  [Ali Haider](https://github.com/AliH17)
+  [Muqaram Majid](https://github.com/Muqaram0)
+  [Syed Afraz](https://github.com/RageRolling)
+  
