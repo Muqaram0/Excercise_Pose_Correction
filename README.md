@@ -34,7 +34,7 @@ Dataset was split into 70% training, 20% validation and 10% Test sets and was th
 
 #### 5. Demo
 
-https://github.com/user-attachments/assets/6ffbccd0-181b-4bba-a95c-4d07c03a34fd
+[https://github.com/user-attachments/assets/6ffbccd0-181b-4bba-a95c-4d07c03a34fd](https://github.com/user-attachments/assets/e1b2ff2e-53da-4fdb-9661-9931df81af89)
 
 
 
