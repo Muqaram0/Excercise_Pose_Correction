@@ -67,5 +67,6 @@ Input Options
 #### Contributors
   [Ali Haider](https://github.com/AliH17)
   [Muqaram Majid](https://github.com/Muqaram0)
-  [Syed Afraz](https://github.com/RageRolling)
+  [Syed Afraz](https://github.com/Afrxz)
+  [Shams](https://github.com/arkham2424)
   
